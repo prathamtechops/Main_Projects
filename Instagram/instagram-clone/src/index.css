@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    padding: 25px;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    flex: 1;
+}
+
+.Nav {
+    flex: 0.2;
+}
+
+.PostFeed {
+    flex: 0.6;
+}
+.Suggest {
+    flex: 0.25;
+
+    margin-right: 140px;
+}
